@@ -6,7 +6,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-xxl">
         <div class="container-fluid">
-          <a href="/"><img id="logo" src="img/logoIes.png" alt="Logo IesAzarquiel"/></a>
+          <a id="logo-a" href="/"><img id="logo" src="img/logoIes.png" alt="Logo IesAzarquiel"/></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -16,7 +16,7 @@
             data-bs-toggle="offcanvas" 
             data-bs-target="#demo"
           >
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars"/>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -146,8 +146,8 @@
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 15px
 
     #logo
-      height: 3.5rem
-      margin-left: 5.5rem
+      height: 3.3rem
+      margin-left: 3.5rem
 
     .container-fluid
       button
@@ -172,9 +172,14 @@
   #menu
     cursor: pointer
     font-size: 1.5rem
-    margin-left: -5rem
+    margin-left: -7rem
     &:hover
       color: #89D5F2
       transition: 400ms
+
+
+  @media (max-width: 600px)
+    #logo
+      max-width: 100%
     
 </style>

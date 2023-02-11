@@ -5,15 +5,14 @@
   <div class="container">
     <div class="cabecera">
       <h1 class="display-6">
-        <i class="fa-solid fa-gamepad" /> Curso de Especialización - Desarrollo
-        de Videojuegos y Realidad Virtual <i class="fa-solid fa-gamepad" />
+        <i class="fa-solid fa-gamepad" /> Curso de Especialización - Desarrollo de Videojuegos y Realidad Virtual <i class="fa-solid fa-gamepad" />
       </h1>
     </div>
     <br />
     <br />
     <div class="container d-flex justify-content-around">
       <div class="container">
-        <div id="carouselExampleInterval" class="carousel carousel-ligth slide" data-bs-ride="carousel">
+        <!-- <div id="carouselExampleInterval" class="carousel carousel-ligth slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button
               type="button"
@@ -77,13 +76,15 @@
             <span class="carousel-control-next-icon" aria-hidden="true" />
             <span class="visually-hidden">Next</span>
           </button>
-        </div>
-      </div>
+        </div>-->
+        <video src="video/miVideo.mp4" autoplay loop muted/>
+      </div> 
+      
       <div class="container">
         <h4 class="text-white bg-primary">
           ¿QUÉ COMPETENCIA GENERAL TIENE EL CURSO DE ESPECIALIZACÓN?
         </h4>
-        <p class="fs-4">
+        <p class="competencia">
           La competencia general de este curso de especialización consiste en
           diseñar y desarrollar videojuegos para diferentes dispositivos y
           plataformas, garantizando la experiencia del usuario, utilizando
@@ -232,13 +233,15 @@
   main {
     font-family: "Courier New", Courier, monospace;
     padding-top: 3rem;
-    background: rgb(140, 197, 247);
+    /* background: rgb(140, 197, 247);
     background: linear-gradient(
       0deg,
       rgba(140, 197, 247, 1) 20%,
       rgba(255, 255, 255, 1) 100%
-    );
+    ); */
     animation: animacion 2s;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 17%, rgba(168,223,246,1) 44%, rgba(0,156,222,1) 100%);
   }
 
   @keyframes animacion {
@@ -250,17 +253,19 @@
     }
   }
 
-  .carousel {
+  video{
     width: 100%;
+  }
+
+  .display-6{
+    font-size: 2.6vw;
+  }
+
+  .carousel {
     color: black;
   }
 
-  .carousel .carousel-inner .d-block {
-    height: 425px;
-  }
-
   .accordion {
-    /* font-weight: lighter; */
     letter-spacing: 1px;
     font-size: 1rem;
   }
@@ -283,5 +288,13 @@
 
   table tbody tr {
     background-color: #c6e3ed;
+  }
+
+  .competencia{
+    font-size: 1.5vw;
+  }
+
+  .text-white{
+    font-size: 1.7vw;
   }
 </style>

@@ -55,10 +55,6 @@
   }
 
   @keyframes lateral {
-    /* from {
-      margin-left: 100%;
-    } */
-
     0%{
       margin-left: 100%;
     }

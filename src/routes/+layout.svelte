@@ -7,10 +7,6 @@
 
 
 <Header/>
-
 <Nav/>
-
-
 <slot></slot>
-
 <Footer/>
