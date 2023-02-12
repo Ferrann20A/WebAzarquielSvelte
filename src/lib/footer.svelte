@@ -1,10 +1,7 @@
 <main>
   <footer class="text-center text-lg-start ">
-      <!-- Grid container -->
       <div class="container p-4">
-        <!--Grid row-->
         <div class="row">
-          <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase text-light">Otros sitios</h5>
     
@@ -26,9 +23,6 @@
               </li>
             </ul>
           </div>
-          <!--Grid column-->
-    
-          <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase text-light mb-0">Contacto</h5>
     
@@ -56,9 +50,6 @@
               </li>
             </ul>
           </div>
-          <!--Grid column-->
-    
-          <!--Grid column-->
           <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase text-light ">Localización</h5>
     
@@ -69,15 +60,10 @@
             </ul>
           </div>
         </div>
-        <!--Grid row-->
       </div>
-      <!-- Grid container -->
-    
-      <!-- Copyright -->
       <div class="text-center p-3">
         © 2023 IES Azarquiel
       </div>
-      <!-- Copyright -->
     </footer>
 
 

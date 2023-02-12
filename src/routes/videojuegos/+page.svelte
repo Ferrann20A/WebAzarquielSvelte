@@ -12,74 +12,8 @@
     <br />
     <div class="container d-flex justify-content-around">
       <div class="container">
-        <!-- <div id="carouselExampleInterval" class="carousel carousel-ligth slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            />
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            />
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            />
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
-              <img
-                src="/img/imgRV1.jpg"
-                class="d-block w-100 rounded"
-                alt="imagen1"
-              />
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img
-                src="/img/imgVG3.jpg"
-                class="d-block w-100 rounded"
-                alt="imagen2"
-              />
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img
-                src="/img/imgRV2.jpg"
-                class="d-block w-100 rounded"
-                alt="imagen3"
-              />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleInterval"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true" />
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleInterval"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true" />
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>-->
         <video src="video/miVideo.mp4" autoplay loop muted/>
       </div> 
-      
       <div class="container">
         <h4 class="text-white bg-primary">
           ¿QUÉ COMPETENCIA GENERAL TIENE EL CURSO DE ESPECIALIZACÓN?
@@ -150,9 +84,7 @@
               aria-expanded="false"
               aria-controls="flush-collapseTwo"
             >
-              ¿PARA QUÉ SIRVE EN EL MUNDO LABORAL? <i
-                class="fa-solid fa-chart-line"
-              />
+              ¿PARA QUÉ SIRVE EN EL MUNDO LABORAL? <i class="fa-solid fa-chart-line"/>
             </button>
           </h2>
           <div
@@ -261,9 +193,9 @@
     font-size: 2.6vw;
   }
 
-  .carousel {
+  /* .carousel {
     color: black;
-  }
+  } */
 
   .accordion {
     letter-spacing: 1px;

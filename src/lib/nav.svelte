@@ -127,12 +127,13 @@
       <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"></button>
     </div>
     <div class="offcanvas-body">
-      <p>INICIO</p>
-      <p>AL DÍA</p>
-      <p>EL LORO</p>
-      <p>SECRETARÍA</p>
-      <p>FAMILIAS</p>
-      <p>BOLSA</p>
+      <p><input type="search" placeholder="Search ..." name="buscador"/></p>
+      <p><i class="fa-solid fa-caret-down"/> INICIO</p>
+      <p><i class="fa-solid fa-caret-down"/> AL DÍA</p>
+      <p><i class="fa-solid fa-caret-down"/> EL LORO</p>
+      <p><i class="fa-solid fa-caret-down"/> SECRETARÍA</p>
+      <p><i class="fa-solid fa-caret-down"/> FAMILIAS</p>
+      <p><i class="fa-solid fa-caret-down"/> BOLSA</p>
     </div>
   </div>
 </main>
@@ -144,6 +145,9 @@
 
     header
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 15px
+      height: 5.5rem
+      display: flex
+      align-items: center
 
     #logo
       height: 3.3rem
@@ -181,5 +185,24 @@
   @media (max-width: 600px)
     #logo
       max-width: 100%
+
+  .offcanvas
+    width: 21.2rem
     
+  .offcanvas-body
+    input
+      height: 2.2rem
+      border-radius: 0.3rem
+      background-color: transparent
+      border: 1px solid gray
+      color: white
+    p
+      transition: .5s
+      &:hover
+        background-color: #1c1c1c
+        border-radius: 8px
+        cursor: pointer
+
+    i
+      padding: 0.5rem
 </style>

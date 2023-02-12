@@ -1,5 +1,4 @@
 <script>
-
 </script>
 
 <main>
@@ -13,8 +12,9 @@
           <div class="card-body">
             <h5 class="card-title">Desarrollo de Videojuegos y Realidad Virtual</h5>
             <p class="card-text">
-              El desarrollo de videojuegos es el proceso de creación de un videojuego, desde el concepto inicial hasta el videojuego en su versión final. </p>
-            <button class="btn btn-primary"><a class="text-white" href="/videojuegos">Leer más...</a></button>
+              El desarrollo de videojuegos es el proceso de creación de un videojuego, desde el concepto inicial hasta el videojuego en su versión final. 
+            </p>
+            <a class="btn btn-primary text-white" href="/videojuegos">Leer más...</a>
           </div>
         </div>
       </div>
@@ -68,10 +68,10 @@
   }
 
   .card{
-    transition: transform .6s;
+    transition: transform .4s;
   }
 
   .card:hover{
-    transform: scale(1.1); 
+    transform: scale(1.05); 
   }
 </style>
