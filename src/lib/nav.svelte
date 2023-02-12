@@ -169,40 +169,42 @@
           color:#89D5F2
 
 
-  .navbar-collapse
-    margin-left: 13rem
+    .navbar-collapse
+      margin-left: 13rem
 
 
-  #menu
-    cursor: pointer
-    font-size: 1.5rem
-    margin-left: -7rem
-    &:hover
-      color: #89D5F2
-      transition: 400ms
-
-
-  @media (max-width: 600px)
-    #logo
-      max-width: 100%
-
-  .offcanvas
-    width: 21.2rem
-    
-  .offcanvas-body
-    input
-      height: 2.2rem
-      border-radius: 0.3rem
-      background-color: transparent
-      border: 1px solid gray
-      color: white
-    p
-      transition: .5s
+    #menu
+      cursor: pointer
+      font-size: 1.5rem
+      margin-left: -7rem
       &:hover
-        background-color: #1c1c1c
-        border-radius: 8px
-        cursor: pointer
+        color: #89D5F2
+        transition: 400ms
 
-    i
-      padding: 0.5rem
+
+    @media (max-width: 600px)
+      #logo
+        height: 3.8rem
+        width: 15rem
+        margin-left: 0
+    
+
+    .offcanvas
+      width: 21.2rem
+      
+    .offcanvas-body
+      input
+        height: 2.2rem
+        border-radius: 0.3rem
+        background-color: transparent
+        border: 1px solid gray
+        color: white
+      p
+        transition: .5s
+        &:hover
+          background-color: #1c1c1c
+          border-radius: 8px
+          cursor: pointer
+      i
+        padding: 0.5rem
 </style>
